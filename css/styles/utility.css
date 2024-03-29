@@ -1,0 +1,19 @@
+.under-weight {
+  color: var(--under-weight-color);
+}
+.normal-weight {
+  color: var(--normal-weight-color);
+}
+.over-weight {
+  color: var(--over-weight-color);
+}
+.obese {
+  color: var(--obese-color);
+}
+.extremely-obese {
+  color: var(--extremely-obese-color);
+}
+
+.uppercase {
+  text-transform: uppercase;
+}

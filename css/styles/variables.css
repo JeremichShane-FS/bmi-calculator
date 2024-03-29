@@ -1,0 +1,37 @@
+:root {
+  --primary-color: #fefefe;
+  --secondary-color: #333;
+  --gray-color: #ccc;
+  --black-color: #0e0e0e;
+  --light-blue-color: #007bff;
+  --dark-blue-color: #0056b3;
+
+  --under-weight-color: #0271ca;
+  --normal-weight-color: #077d60;
+  --over-weight-color: #ccc52f;
+  --obese-color: #ce6e2c;
+  --extremely-obese-color: #cb2b34;
+
+  --primary-font: "Roboto", sans-serif;
+  --primary-line-height: 1.5;
+  --primary-font-size: 1rem;
+  --secondary-font-size: 1.2rem;
+
+  --background-gradient: linear-gradient(to right, #0056b3, rgba(0, 123, 255, 0.6));
+  --background-black-overlay: rgba(0, 0, 0, 0.7);
+
+  --box-shadow: 0 3px 30px rgba(0, 0, 0, 0.4);
+  --transition: all 0.2s ease-in-out;
+
+  --h1-font-size: 4rem;
+  --h2-font-size: 2.5rem;
+  --h3-font-size: 2rem;
+}
+
+body {
+  font-family: var(--primary-font);
+  font-size: var(--primary-font-size);
+  line-height: var(--primary-line-height);
+  color: var(--primary-color);
+  background: var(--background-gradient), url("/img/working-out.jpg") no-repeat fixed center/cover;
+}
